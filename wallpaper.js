@@ -35,7 +35,8 @@ var teens=['ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','se
 // http://stackoverflow.com/questions/5529934/javascript-numbers-to-words
 function convert(num){
     if (num<10) return ones[num];
-    else if (num>=10 && num<20) return teens[num-10];
+    else if (num>=10 && num<20) 
+        return teens[num-10];
     else{
         return tens[Math.floor(num/10)]
     }
