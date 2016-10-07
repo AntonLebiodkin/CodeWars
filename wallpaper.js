@@ -11,7 +11,6 @@
 // that it’s best to have an extra length of wallpaper handy in case of mistakes 
 // or miscalculations so he wants to buy a length 15% greater than the one he needs.
 
-
 // Last time he did these calculations he caught a headache 
 // so could you help John? Your function wallpaper(l, w, h) 
 // should return as a plain English word in lower case 
